@@ -6,14 +6,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>HOME</title>
     <style>
-        body {
-            background-image: url("https://previews.dropbox.com/p/thumb/ACBMpdWy4mGNOm6TKlLVbRmlGXs4F1a8-Wq0xuY39YPXnJK3RleV-pgQo4Zxdg_gem4n3DnGK_oCwqDzWCNiiiTQWDRNnCaamfpOH16d3kcPuaSpAgEdafAWxIzWo0z0HzUm1h2ZESptSC9uZ5Uk8mG3KxUHsvIAu2C8Zf03JHu2nzG4TVunBu9hyW4GRYWP0vH3oz_AML1v3BgQe15_EM5w4CJ10yl_GGJ6YaPICN6N0xkQz8lYtBBbv3Q3VKpYTKcYAaP8-drjoyafVnIH5V-2Ns-BaK6oTno83Q6p6xNtvVvYt6CS37O82y_TkDL4duab13JBsSnMYJgB0QCvQcNx/p.jpeg");
+         body {
+            background-image: url("https://previews.dropbox.com/p/thumb/ACB2IyIJylQI6uxikPJ0G6OaoxXZirL0nVmrzJcfQBwPt90LeBAFVan-P0QSbl11glI3naBp_PzlmeTWyb0JZylIh1oWFRDVh1c-FL9XP3edIhLhgTqoDAuSsNU3oK6CKMwCOxne9ndAt-25aVUTMDS5E5HK9Fas3Tq6y0_06UxqbDVfK82Hhyp4wxN0IPHKdJ0xfyqa3tSr5uq6IZ8EQBxoIxE7bvTNP00S2F8wIDB9bmJ2myE8GAy3sFX2FgOv7CbdjKy2IWqeL49d7VI-EAC2lNfUIQ4-LLLFzPPbq4u4aLTfNJqB4bDdqePqN533oZQxToJCUuS_5vCjgn2l4qHC/p.jpeg");
             background-size: cover;
         }
       </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary opacity-75 ">
+    <nav class="navbar navbar-expand-lg bg-black opacity-75 " data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="/">HaPo</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,8 +21,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+             
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Referenzen</a>
+                <a class="nav-link active" aria-current="page" href="/references">Referenzen</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -33,65 +34,57 @@
                   <li><a class="dropdown-item" href="/video">Video</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/contact">Kontakt</a>
+              <li class="nav-item" id="nav-item-over">
+                <a class="nav-link active"  aria-current="page" href="/contact">Kontakt</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Impressum</a>
               </li>
-             
             </ul>
           </div>
         </div>
       </nav>
-    <h1>This is my homepage!</h1>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
- 
-</body>
 
-</html>");
-            background-size: cover;
-        }
-      </style>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary opacity-75 ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">HaPo</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Über</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Referenzen</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Media
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/audio">Audio</a></li>
-                  <li><a class="dropdown-item" href="/video">Video</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/contact">Kontakt</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Impressum</a>
-              </li>
-             
-            </ul>
+      <div class="container text-center">
+        <div class="row align-items-center" style="margin-top: 13%;">
+          <div class="col">
+            <div class="card text-bg-dark mb-3" style="width: 18rem; height:32rem">
+                <img src="https://previews.dropbox.com/p/thumb/ACDBSEM1snJ1IwbgzqZuaMBaB5aw9cDr-ci_Hz1CUfZoyiUfmxWvQZP4Ie0yOfniFXvIv3dqwq_JXk_S7M2R9KIAh3_4YMVNFnXwjQBKNadKjc8L3doGzEkqXv45mnkyRgDxokHOXT5RfnDcmmaGFCwSlXnErvaX5cSRgxb4K21gc8eOTYj0L-8v3x6fKAlnFQIs8iQ_WQl9ea5jtQ3UoRS7YlqvPWtt_7rHKm6dSOxH7jBHY3p0aUPl_M168hG_XDLXWY9XtlwXgO-pWbiZSBZDGHjLgDM7BE5QSYO5OLAY7JHwUH-k5fp8n7HGZY1E9TTtYzTjjgaOZKgspr0foBVU/p.jpeg" class="card-img-top" alt="Live 2023 mit LEA" style="height:15rem; width:auto; object-fit: cover;" >
+                <div class="card-body">
+                  <h5 class="card-title">Live</h5>
+                  <p class="card-text">Live auf der Bühne darf und durfte ich schon mit tollen Musiker*innen spielen wie: <b> LEA, Mine, Mighty Oaks, Millie Turner, Fatoni, Novaa, Marie Bothmer, Ian Hooper, ClockClock, Georg Stengel, Bosse (mit Lea), Casper (mit Lea), und Myle. </b>  </p>
+                  
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card text-bg-dark mb-3" style="width: 18rem; height:32rem; background-color: black;">
+                <img src="https://previews.dropbox.com/p/thumb/ACB6JYWHvXC2_dpL7ekqshuEwJlX8w_-y7F46MOO1DIe06jFn_f99XxYdTr9YEcB1nzIULvxnW5Um67_k5xiyRY6Ygw8qms3u9f_uzdVz0bUlOtzCeV_y1Mt6vdTTjt2Sh8hiQJp9QK6Ga7l_CCdbrDiRpCBcZGhgLL4yQQX20xUcEq8D1r5oAFXk3ZK8P-OWsFkjDKzCO27vDvPHjkuK1v0yjyQvAJ4j_og3D-yRs65mvDECb9CdP23uuuAq4LvCwEYXDrRoFdugtEwytuIcHFLh30S4Te9q0iI8ZCSqbUwANYm_fdNUornxt1oYKEydf6uvTnCbGuzrujNBzzn3ctI/p.png" class="card-img-top" alt="insta foto @iamhapo" style="height:15rem; width:auto; object-fit: cover;">
+                <div class="card-body">
+                  <h5 class="card-title">Studio</h5>
+                  <p class="card-text">Gitarren und sonstige Instrumente habe ich aufgenommen für: <b>LEA, Mine, Marie Bothmer, Glockenbach, ClockClock, Ian Hooper, Mougleta, Stanowski, Mille, Novaa, 29, Myle und Mike Singer. </b>Mehr dazu könnt ihr unter <a href="/audio">Medien</a> hören. </p>
+                  
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card text-bg-dark mb-3" style="width: 18rem; height:32rem">
+                <img src="https://previews.dropbox.com/p/thumb/ACArxkB3W5SDgIvcj28ci3Ynz6g-Vr0bFxl08ejF1rUUQeXDS9BHrBAIMBUrQjtg7SuclbzLsAlmpYa5sz6-6cKtnzWiQPbmqmyHCkkrnP9SzNgjUGlWey3pTsFZ90HY8TJ7Vfm8vLfX5FWbRbp16_FUqr9_8rbfFmkEf13OO3uCwXDrvNbR7EI3Tbq-OB_W7ueTJZAU-uqAIlI_6LqT69S2p4ZMJNXO4Yzm99LwYDFNUNdGczDOV5dbBUZJS5meo_j7bvocGLO6yrayQyl50Iy48EIVLrLUQ3GwIbY6BRJVNC1LFwcznBoAmX17QwOpPz1dX3s5VzOvl3fn9Cbo2nkr/p.png" class="card-img-top" alt="Instagram Foto @iamhapo" style="height:15rem; width:auto; object-fit: cover;">
+                <div class="card-body">
+                  <h5 class="card-title">Songwriting</h5>
+                  <p class="card-text">Seit Anfang 2020 habe ich u.a. mit <b>ClockClock, Stanowski, Mougleta und Mille </b> Songs geschrieben. Auch hier könnt ihr mehr unter <a href="/audio">Medien</a> hören.</p>
+                  
+                </div>
+              </div>
           </div>
         </div>
-      </nav>
-    <h1>This is my homepage!</h1>
+      </div>
+
+      
+    
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
  
 </body>
 
-</html>
+</html>"
+       

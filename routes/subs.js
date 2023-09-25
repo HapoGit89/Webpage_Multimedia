@@ -22,6 +22,10 @@ router.get("/contact", async function (req, res, next) {
     res.render('contact.ejs')
 });
 
+router.get("/references", async function (req, res, next) {
+  res.render('references.ejs')
+});
+
 
 
 
