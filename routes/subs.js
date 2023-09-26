@@ -1,4 +1,6 @@
 const express = require("express");
+const shuffle = require("../helpers/shuffle")
+const pics = require ("../assets/pictures")
 
 
 const router = new express.Router();
@@ -24,6 +26,11 @@ router.get("/contact", async function (req, res, next) {
 
 router.get("/references", async function (req, res, next) {
   res.render('references.ejs')
+});
+
+router.get("/pics", async function (req, res, next) {
+  const mypics= shuffle(pics)
+  res.render('pics.ejs', {pics: mypics})
 });
 
 
