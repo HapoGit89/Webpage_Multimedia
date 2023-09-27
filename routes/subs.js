@@ -33,6 +33,11 @@ router.get("/pics", async function (req, res, next) {
   res.render('pics.ejs', {pics: mypics})
 });
 
+router.get("/picsarray", async function (req, res, next) {
+  const mypics= shuffle(pics)
+  res.json({pics})
+});
+
 
 
 
