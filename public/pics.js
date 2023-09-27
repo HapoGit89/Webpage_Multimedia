@@ -17,20 +17,36 @@ document.addEventListener("DOMContentLoaded", async function(){
     picbox.setAttribute("alt", array[index].desc)
     desc.innerHTML=array[index].desc
 
+    next.addEventListener('click', function(){
+        
+        if (index == array.length -1){
+            index = 0
+        }
+        else {
+            index += 1
+        }
+        picbox.setAttribute("src", array[index].link)
+        picbox.setAttribute("alt", array[index].desc)
+        desc.innerHTML=array[index].desc
+
+    })
+
+    back.addEventListener('click', function(){
+        
+        if (index > 0){
+            index = index - 1
+        }
+        else{
+            index = array.length -1
+        }
+        picbox.setAttribute("src", array[index].link)
+        picbox.setAttribute("alt", array[index].desc)
+        desc.innerHTML=array[index].desc
+    })
+
 })
 
 
-next.addEventListener('click', async function(){
-    console.log("You clicked next")
-})
-
-back.addEventListener('click', function(){
-    console.log("You clicked back")
-})
-
-async function pic(){
-
-}
 
 
     
