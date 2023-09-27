@@ -39,6 +39,10 @@ router.get("/picsarray", async function (req, res, next) {
 });
 
 
+router.get("/impressum", async function (req, res, next) {
+ res.render('impressum.ejs')
+});
+
 
 
 module.exports = router;
